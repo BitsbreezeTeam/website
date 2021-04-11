@@ -1,0 +1,27 @@
+<svg id="logo_small_light" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.493" height="71.166" viewBox="0 0 48.493 71.166">
+  <defs>
+    <filter id="Path_76767" x="-8.429" y="4.227" width="60.749" height="97.439" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#20dae0"/>
+      <stop offset="1" stop-color="#20dae0"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_76767)">
+        <path id="Path_76767-2" data-name="Path 76767" d="M0,66.939,1.148.743S39.027-7.114,39.741,28.286c.354,17.594-10.644,30.275-21.9,38.653Z" transform="translate(0 0)" fill="#2abcc1" opacity="0.03"/>
+      </g>
+    </clipPath>
+  </defs>
+  <g id="Group_84" data-name="Group 84">
+    <path id="Union_48" data-name="Union 48" d="M0,0H25.451a23.042,23.042,0,0,1,0,46.085H0Z" transform="translate(0 25.016)" fill="url(#linear-gradient)"/>
+    <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(0.071 4.227)" clip-path="url(#clip-path)">
+      <path id="Union_49" data-name="Union 49" d="M0,0H25.451a23.042,23.042,0,0,1,0,46.085H0Z" transform="translate(-0.071 20.789)" fill="#2abcc1"/>
+    </g>
+    <path id="Path_76768" data-name="Path 76768" d="M6224.979,2631.582l.01-70.527s39.047-6.4,39.683,25.152S6224.979,2631.582,6224.979,2631.582Z" transform="translate(-6224.979 -2560.522)" fill="#262360"/>
+  </g>
+</svg>
