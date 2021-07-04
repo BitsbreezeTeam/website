@@ -60,7 +60,7 @@ definisco una rule per l'altezza della section-intro
 e larghezza della sezione al 100% di modo che occupino tutto lo spazio
 */
 .section-intro {
-  height: 100%;
+  height: 90%;
   width: 100%;
 }
 
@@ -75,8 +75,8 @@ creo margine superiore all'header
 creo rules su .header-subtitle
 */
 .header-subtitle {
-  margin-top: 5%;
-  font-size: 1.3em;
+  margin-top: 22%;
+  font-size: 1.5em;
 }
 
 @media only screen and (max-width : 992px) {
@@ -107,7 +107,7 @@ creo rules su .header-subtitle
 aggiungo un margine superiore a sezione esperienza
 per evitare che si sovrapponga con navbar
 */
-.col-esperienza {
+.col-soluzioni {
   margin-top: 60px;
   /* aggiungo del margine inferiore alla colonna esperienza */
   margin-bottom: 100px;
@@ -118,23 +118,23 @@ per evitare che si sovrapponga con navbar
 }
 .icon-block .material-icons {
   font-size: inherit;
-  color:RGB(5,130,202);
+  color:RGB(255,255,240);
 }
 
 /*
 ridimensiono h5 su #esperienza
 */
-#esperienza h5 {
+#soluzioni h5 {
   font-size: 1.3em;
   /* aggiungo interlinea */
   line-height: 1.6em;
 }
 
 /*
-definisco una rule per l'altezza della section-progetti
+definisco una rule per l'altezza della section-vantaggi
 e larghezza della sezione al 100% di modo che occupino tutto lo spazio
 */
-.section-progetti {
+.section-vantaggi {
   height: 100%;
   width: 100%;
   margin-bottom: 100px
@@ -143,7 +143,7 @@ e larghezza della sezione al 100% di modo che occupino tutto lo spazio
 /*
 formattazione dell'icona emoji_objects
 */
-.progetti-icon {
+.vantaggi-icon {
   /* aumento dimensione */
   font-size: 7em;
   /* metto un margine superiore */
@@ -152,9 +152,9 @@ formattazione dell'icona emoji_objects
 
 /*
 definisco la rule per la classe del sottotitolo
-progetti-subtitle
+vantaggi-subtitle
 */
-.progetti-subtitle {
+.vantaggi-subtitle {
   /* porto la dimensione del testo a 1.3em */
   font-size: 1.3em;
   /* aggiungo il margin top del 5% */
@@ -164,14 +164,14 @@ progetti-subtitle
 /*
 allargo il bottone di submit della mail al 100% del container 
 */
-.btn-progetti {
+.btn-vantaggi {
   width: 100%;
 }
 
 /*
-Definisco la formattazione a 4 colonne card per la sezione descr_prog
+Definisco la formattazione a 4 colonne card per la sezione descr_vant
 */
-.column-descr_prog {
+.column-descr_vant {
   float: left;
   width: 25%;
   padding: 0 10px;
@@ -180,14 +180,14 @@ Definisco la formattazione a 4 colonne card per la sezione descr_prog
 /*
 Rimuovo extra margine destro e sinistro
 */
-.row-descr_prog {
+.row-descr_vant {
   margin: 0 -5px;
 }
 
 /*
 Creo floats dopo le colonne
 */
-.row-descr_prog:after {
+.row-descr_vant:after {
   content: "";
   display: table;
   clear: both;
@@ -196,7 +196,7 @@ Creo floats dopo le colonne
 /*
 stile delle card
 */ 
-.card-descr_prog {
+.card-descr_vant {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
@@ -207,7 +207,7 @@ stile delle card
 Rendo responsive (mostra una colonna su piccoli schermi)
 */
 @media screen and (max-width: 600px) {
-  .column-descr_prog {
+  .column-descr_vant {
     width: 100%;
     display: block;
     margin-bottom: 20px;
@@ -225,16 +225,16 @@ formattazione dell'icona email
 }
 
 
-.section-tempo_libero {
+.section-demo {
   height: 100%;
   width: 100%;
   margin-bottom: 100px
 }
 
 /*
-formattazione dell'icona tempo_libero
+formattazione dell'icona demo
 */
-.tempo_libero-icon {
+.demo-icon {
   /* aumento dimensione */
   font-size: 7em;
   /* metto un margine superiore */
@@ -243,9 +243,9 @@ formattazione dell'icona tempo_libero
 
 /*
 definisco la rule per la classe del sottotitolo
-tempo_libero-subtitle
+demo-subtitle
 */
-.tempo_libero-subtitle {
+.demo-subtitle {
   /* porto la dimensione del testo a 1.3em */
   font-size: 1.3em;
   /* aggiungo il margin top del 5% */
@@ -257,7 +257,7 @@ tempo_libero-subtitle
 /*
 allargo il bottone di submit della mail al 100% del container 
 */
-.btn-tempo_libero {
+.btn-demo {
   width: 100%;
 }
 
